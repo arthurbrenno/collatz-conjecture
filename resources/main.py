@@ -1,9 +1,10 @@
 import numpy as np;
 import matplotlib.pyplot as plt;
+import sys;
 
 
 def main():
-    number = 47
+    number = sys.argv
     numbers = [number]
     while (number > 1):
         number = step(number)
