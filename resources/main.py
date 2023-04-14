@@ -4,7 +4,7 @@ import sys;
 
 
 def main():
-    number = sys.argv
+    number = int(sys.argv[1])
     numbers = [number]
     while (number > 1):
         number = step(number)
